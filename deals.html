@@ -3,45 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DEAL HUNTER | Find the Best Prices</title>
+    <title>DEAL HUNTER | Search Engine</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Animated Grid Background -->
     <div class="grid-background"></div>
     
-    <!-- Scanline Effect -->
     <div class="scanlines"></div>
     
-    <!-- Floating Particles -->
     <div class="particles" id="particles"></div>
 
-    <!-- Header -->
     <header class="header">
         <div class="logo">
             <span class="logo-icon">◈</span>
             <span class="logo-text">DEAL<span class="logo-highlight">HUNTER</span></span>
         </div>
+        
         <nav class="nav">
-            <a href="#" class="nav-link">Home</a>
-            <a href="#" class="nav-link">Deals</a>
-            <a href="#" class="nav-link">About</a>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="deals.html" class="nav-link" style="color:var(--neon-green); text-shadow: 0 0 10px var(--neon-green);">Deals</a>
+            <a href="about.html" class="nav-link">About</a>
         </nav>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
             <h1 class="hero-title">
-                <span class="glitch" data-text="DEAL">DEAL</span>
-                <span class="glitch highlight" data-text="HUNTER">HUNTER</span>
+                <span class="glitch" data-text="START">START</span>
+                <span class="glitch highlight" data-text="HUNTING">HUNTING</span>
             </h1>
-            <p class="hero-subtitle">Hunt the best prices across the digital marketplace</p>
+            <p class="hero-subtitle">Search products to find live Amazon prices</p>
             
-            <!-- Search Bar -->
             <div class="search-container">
                 <div class="search-wrapper">
                     <input 
@@ -62,18 +57,16 @@
                 <div class="search-glow"></div>
             </div>
             
-            <!-- Quick Tags -->
             <div class="quick-tags">
                 <span class="tag-label">Trending:</span>
-                <button class="tag" data-query="iPhone">iPhone</button>
-                <button class="tag" data-query="Laptop">Laptop</button>
-                <button class="tag" data-query="Headphones">Headphones</button>
-                <button class="tag" data-query="Smartwatch">Smartwatch</button>
+                <button class="tag" data-query="iPhone 15">iPhone 15</button>
+                <button class="tag" data-query="Gaming Laptop">Gaming Laptop</button>
+                <button class="tag" data-query="Sony Headphones">Sony Headphones</button>
+                <button class="tag" data-query="Samsung S24">Samsung S24</button>
             </div>
         </div>
     </section>
 
-    <!-- Results Section -->
     <section class="results-section" id="resultsSection">
         <div class="results-header">
             <h2 class="results-title">
@@ -87,8 +80,7 @@
         </div>
         
         <div class="products-grid" id="productsGrid">
-            <!-- Products will be injected here by JavaScript -->
-        </div>
+            </div>
         
         <div class="no-results" id="noResults" style="display: none;">
             <div class="no-results-icon">◉</div>
@@ -97,14 +89,13 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
         <div class="footer-content">
             <p class="footer-text">
-                <span class="cyber-text">DEAL HUNTER</span> v2.0.77 | 
+                <span class="cyber-text">DEAL HUNTER</span> v2.0 | 
                 <span class="footer-blink">SYSTEM ONLINE</span>
             </p>
-            <p class="footer-copyright">© 2025 Deal Hunter. All rights reserved.</p>
+            <p class="footer-copyright">© 2026 Deal Hunter. All rights reserved.</p>
         </div>
     </footer>
 
