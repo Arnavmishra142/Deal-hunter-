@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DEAL HUNTER | Home</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="grid-background"></div>
-    <div class="scanlines"></div>
 
     <header class="header">
         <div class="logo">
@@ -23,37 +22,79 @@
         </nav>
     </header>
 
-    <section class="hero" style="min-height: 40vh;">
+    <section class="hero" style="min-height: 40vh; padding-top: 2rem;">
         <div class="hero-content">
             <h1 class="hero-title">
-                CHOOSE YOUR <span class="glitch highlight" data-text="BATTLEGROUND">BATTLEGROUND</span>
+                BIGGEST <span class="highlight">DROPS</span>
             </h1>
-            <p class="hero-subtitle">Select a marketplace to begin your hunt.</p>
+            <p class="hero-subtitle">Real-time prices from Amazon India</p>
+            <a href="deals.html" class="search-btn" style="text-decoration:none; display:inline-block; margin-top:1rem; border-radius:8px;">
+                START SEARCHING
+            </a>
         </div>
     </section>
 
-    <div class="store-grid">
-        <a href="deals.html" class="store-card">
-            <div class="store-icon"><i class="fab fa-amazon"></i> 📦</div>
-            <h3 class="store-title">AMAZON HUNTER</h3>
-            <p style="color:#aaa; margin-bottom:1rem;">Search millions of products instantly with real-time pricing.</p>
-            <span class="store-status active">● SYSTEM ONLINE</span>
-        </a>
-
-        <div class="store-card" style="opacity: 0.6; cursor: not-allowed;">
-            <div class="store-icon">🛍️</div>
-            <h3 class="store-title">FLIPKART SCOUT</h3>
-            <p style="color:#aaa; margin-bottom:1rem;">Indian marketplace integration under development.</p>
-            <span class="store-status">● LOCKED (COMING SOON)</span>
+    <section class="category-section">
+        <h2 class="section-title">Shop by Category</h2>
+        <div class="category-grid">
+            <a href="deals.html?q=Smartphone" class="category-card">
+                <div class="cat-img-box">📱</div>
+                <span class="cat-name">Mobiles</span>
+            </a>
+            <a href="deals.html?q=Laptop" class="category-card">
+                <div class="cat-img-box">💻</div>
+                <span class="cat-name">Laptops</span>
+            </a>
+            <a href="deals.html?q=Headphones" class="category-card">
+                <div class="cat-img-box">🎧</div>
+                <span class="cat-name">Audio</span>
+            </a>
+            <a href="deals.html?q=Smartwatch" class="category-card">
+                <div class="cat-img-box">⌚</div>
+                <span class="cat-name">Watches</span>
+            </a>
+            <a href="deals.html?q=Sneakers" class="category-card">
+                <div class="cat-img-box">👟</div>
+                <span class="cat-name">Fashion</span>
+            </a>
         </div>
+    </section>
 
-        <a href="deals.html" class="store-card">
-            <div class="store-icon">💻</div>
-            <h3 class="store-title">TECH ARSENAL</h3>
-            <p style="color:#aaa; margin-bottom:1rem;">Laptops, Phones, and Gadgets at best prices.</p>
-            <span class="store-status active">● SEARCH READY</span>
-        </a>
-    </div>
+    <section class="category-section">
+        <h2 class="section-title">Trending Now</h2>
+        <div class="featured-grid">
+            <a href="deals.html?q=iPhone 15" class="featured-card">
+                <img src="https://m.media-amazon.com/images/I/71d7rfSl0wL._AC_UY218_.jpg" class="featured-img" alt="iPhone">
+                <div class="featured-info">
+                    <div class="featured-title">Apple iPhone 15 (128 GB)</div>
+                    <div style="color:var(--neon-green); font-weight:bold;">Check Price ></div>
+                </div>
+            </a>
+            
+            <a href="deals.html?q=Sony XM5" class="featured-card">
+                <img src="https://m.media-amazon.com/images/I/51SKmu2G9FL._AC_UY218_.jpg" class="featured-img" alt="Sony">
+                <div class="featured-info">
+                    <div class="featured-title">Sony WH-1000XM5</div>
+                    <div style="color:var(--neon-green); font-weight:bold;">Check Price ></div>
+                </div>
+            </a>
+
+            <a href="deals.html?q=Gaming Mouse" class="featured-card">
+                <img src="https://m.media-amazon.com/images/I/61mpMH5TzkL._AC_UY218_.jpg" class="featured-img" alt="Mouse">
+                <div class="featured-info">
+                    <div class="featured-title">Logitech G502 Hero</div>
+                    <div style="color:var(--neon-green); font-weight:bold;">Check Price ></div>
+                </div>
+            </a>
+             <a href="deals.html?q=PlayStation 5" class="featured-card">
+                <img src="https://m.media-amazon.com/images/I/51051FiD9UL._AC_UY218_.jpg" class="featured-img" alt="PS5">
+                <div class="featured-info">
+                    <div class="featured-title">Sony PlayStation 5</div>
+                    <div style="color:var(--neon-green); font-weight:bold;">Check Price ></div>
+                </div>
+            </a>
+        </div>
+    </section>
 
     <footer class="footer">
         <p class="footer-text">DEAL HUNTER v2.0</p>
